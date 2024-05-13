@@ -1,0 +1,7 @@
+.row{
+    display: $d-flex;
+    
+    .col{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+.loading{
+    .loading_box{
+        height: $load_page_height;
+    }
+
+    .loading_row{
+        .loading_col{
+            img{
+                height: 450px;
+                padding-right: $padding-x;
+            }
+
+            .loading_title{
+                padding-top: $padding-y;
+                h2{
+                    position: relative;
+                    font-size: $h2lgSize;
+                    font-family: $font-family-sans-serif;
+                    max-width: 100%;
+                    padding-bottom: 5rem;
+
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 5rem;
+                        height: .1rem;
+                        background: #000;
+                        top: 75%;
+                        left: 0;
+                    }
+                }
+
+                p{
+                    font-family: $font-family-sans-serif;
+                    line-height: 34px;
+                    padding-bottom: $padding-y;
+                }
+            }
+        }
+
+
+        .loading_col_3{
+            img{
+                height: 400px;
+                padding-right: 0;
+                padding-left: $padding-x;
+            }
+        }
+    }
+}

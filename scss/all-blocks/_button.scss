@@ -1,0 +1,26 @@
+@mixin btn_padding(){
+    padding: $btn_padding_y $btn_padding_x;
+    transition: .3s;
+}
+
+.default_btn{
+    @include btn_padding();
+    border: 1px solid $default_btn_border_color;
+    background: $default_btn_bg_color;
+    border-radius: $btn_border_radius;
+    color: $default_btn_color;
+}
+
+.transparent_btn{
+    @include btn_padding();
+    border: 1px solid $default_btn_bg_color;
+    background: $transparent;
+    border-radius: $btn_border_radius;
+    color: $default_btn_bg_color;
+
+    &:hover{
+        background: $default_btn_bg_color;
+        color: $default_btn_color;
+    }
+
+}

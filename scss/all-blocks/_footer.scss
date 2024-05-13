@@ -1,0 +1,16 @@
+.footer{
+    max-width: $header-max-width;
+    height: 50vh;
+    .col{
+        width: 100%;
+    }
+    background: $default_btn_bg_color;
+    .list{
+        padding-left: $padding-y;
+        .list_item{
+            line-height: 42px;
+            color: $light_color;
+            font-family: sans-serif;
+        }
+    }
+}

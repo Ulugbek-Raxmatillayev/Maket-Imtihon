@@ -1,0 +1,7 @@
+.header{
+    max-width: $header-max-width;
+    .header_container{
+        display: $d-flex;
+        justify-content: $space-around;
+    }
+}
